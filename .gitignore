@@ -2,3 +2,8 @@
 ######################
 .DS_Store
 .DS_Store?
+
+#folder to ignore (as too big)
+# OS generated files #
+######################
+datasets/
