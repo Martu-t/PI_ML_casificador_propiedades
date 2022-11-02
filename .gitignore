@@ -4,6 +4,9 @@
 .DS_Store?
 
 #folder to ignore (as too big)
-# OS generated files #
 ################
 datasets/
+
+#fignorar los .csv
+# ignorar todos los archivos que terminen en .log
+*.csv
