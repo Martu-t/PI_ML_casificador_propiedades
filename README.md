@@ -23,20 +23,20 @@ Se proveen los archivos dentro del archivo comprimido 'properties_colombia.zip'
 
 2) main.ipynb donde se realiza todo el proceso desde carga de datos hasta predicción. Sus secciones se dividen en:
 
-    1) Análisis EDA (exploración y análisi de los datos)
+    I) Análisis EDA (exploración y análisi de los datos)
     - Cómo se compone el dataset, relación 
     - Conclusiones pre-eliminares  
     
-    2) Preprocesamiento de datos
+    II) Preprocesamiento de datos
     - Tratamiento de datos faltantes: Imputación o eliminación
     - Elección de features más importantes
     - Normalización y escalamiento de datos
     - Codificación de variables categóricas  
     
-    3) Módelo clasificador
+    III) Módelo clasificador
     - Instanciar un módelo y ver sus métricas: Se ha utilizado el módelo de regresión logística. La razón: es un módelo simple y ayuda en las problematicas binarias (caro o barato en este caso). Se pueden ver las métricas obtenidas en el Notebook  
     
-    4)Predicción
+    IV)Predicción
     - Se hace una predicción en base al archivo ´properties_colombia_test.csv´ y se genera autómaticamente un archivo llamado Martu-t.csv 
 
 3) un .csv con el nombre del usuario de GitHub que contiene uma columna conlas predicciones del módelo. Se asigna 'barato' = 0 y 'caro' = 1
