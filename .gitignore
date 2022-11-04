@@ -9,4 +9,3 @@ datasets/
 
 #fignorar los .csv
 # ignorar todos los archivos que terminen en .log
-*.csv
