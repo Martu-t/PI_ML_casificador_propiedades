@@ -6,7 +6,7 @@ Este proyecto es parte de la Datathon para los alumnos de Data Science de Henry.
 ​
 ## Marco de trabajo: Mercado inmobiliario
 ​
-Dentro de la sociedad globalizada e industrializada, es sabido que los precios de los inmuebles han presentado un constante cambio, por lo que quienes deseen invertir o vender una propiedad se enfrentan al fenómeno especulativo existente en la valorización de éstos. Esto, debido a la constante tendencia de las ciudades a crecer demográfica y comercialmente, llegando a un punto en donde no se tiene certeza de la valorización real dentro del sector en donde se desee invertir. 
+Actualemnte los precios de los inmuebles tienen un constante cambio, por lo que quienes deseen invertir o vender una propiedad se enfrentan al fenómeno especulativo existente en la valorización de éstos.
 ​
 Pese a que el precio depende, en cierta medida, de las tendencias que esté teniendo el mercado inmobiliario en un determinado tiempo, poder estimar adecuadamente el valor de una propiedad es una referencia clave para entender si es una buena oportunidad, ya sea de compra o de venta.
 ​
@@ -15,9 +15,6 @@ Pese a que el precio depende, en cierta medida, de las tendencias que esté teni
 Una empresa inmobiliaria en Colombia necesita un módelo de clasificación que permita clasificar el precio de las propiedades en venta, utilizando los datos que se han puesto a su disposición correspondientes al año 2020.
 ​
 Para esto, específicamente, elegimos predecir la **categorización** de las propiedades entre baratas o caras, considerando como criterio el valor promedio de los precios (la media).  
-
-Esto servirá para una base de clasificación de propiedades, para más adelante tomar acciones teniendo en cuenta esta clasificación inicial.
-​
 
 ## Que encontrarás en este repositorio
 ​
@@ -28,21 +25,21 @@ Se proveen los archivos dentro del archivo comprimido 'properties_colombia.zip'
 
     1) Análisis EDA (exploración y análisi de los datos)
     - Cómo se compone el dataset, relación 
-    - Conclusiones pre-eliminares 
-
+    - Conclusiones pre-eliminares  
+    
     2) Preprocesamiento de datos
     - Tratamiento de datos faltantes: Imputación o eliminación
     - Elección de features más importantes
     - Normalización y escalamiento de datos
-    - Codificación de variables categóricas
-
+    - Codificación de variables categóricas  
+    
     3) Módelo clasificador
-    - Instanciar un módelo y ver sus métricas: Se ha utilizado el módelo de regresión logística. La razón: es un módelo simple y ayuda en las problematicas binarias (caro o barato en este caso). 
-    Se pueden ver las métricas obtenidas en el Notebook
-
+    - Instanciar un módelo y ver sus métricas: Se ha utilizado el módelo de regresión logística. La razón: es un módelo simple y ayuda en las problematicas binarias (caro o barato en este caso). Se pueden ver las métricas obtenidas en el Notebook  
+    
     4)Predicción
     - Se hace una predicción en base al archivo ´properties_colombia_test.csv´ y se genera autómaticamente un archivo llamado Martu-t.csv 
 
+3) un .csv con el nombre del usuario de GitHub que contiene uma columna conlas predicciones del módelo. Se asigna 'barato' = 0 y 'caro' = 1
 ​
 ## Métricas
 ​
